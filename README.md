@@ -4,7 +4,7 @@ A small Python GUI for visualizing the apparent SWR seen by a 50-ohm antenna ana
 
 The motivating observation is that a long open-ended feedline may not appear as an infinite SWR at the analyzer. The open-circuit reflection still occurs at the far end, but the reflected wave is attenuated on both the outbound and return trips. The analyzer therefore sees a reduced reflection coefficient and may report a moderate or deceptively low SWR even though the far end is disconnected.
 
-![Example open-circuit response](examples/example_21m_open_response.png)
+![Example open-circuit response](examples/example_21m_open_response.svg)
 
 ## What the program shows
 
@@ -130,7 +130,7 @@ lmr400-long-line-swr-visualizer/
 │   ├── technical_note.md
 │   └── release_instructions.md
 ├── examples/
-│   └── example_21m_open_response.png
+│   └── example_21m_open_response.svg
 └── .github/
     └── workflows/
         └── build-windows.yml
