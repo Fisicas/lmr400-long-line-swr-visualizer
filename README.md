@@ -90,11 +90,15 @@ docs/technical_note.md
 Core relationship for a nominally matched line:
 
 ```math
-\Gamma_\mathrm{in} = \Gamma_L e^{-2\gamma l}
+\Gamma_\mathrm{in} = \Gamma_L e^{-2\alpha l}
 ```
 
-For an open termination, \(\Gamma_L = +1\), so:
+For an open termination, 
+```math
+\Gamma_L = +1\, 
+```
 
+So:
 ```math
 |\Gamma_\mathrm{in}| \approx e^{-2\alpha l}
 ```
