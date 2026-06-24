@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" fill="white"/>
+  <text x="450" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="24">Example LMR-400 open-circuit response, 21 m</text>
+  <rect x="70" y="70" width="780" height="180" fill="#fafafa" stroke="#222"/>
+  <rect x="70" y="310" width="780" height="150" fill="#fafafa" stroke="#222"/>
+  <line x1="100" y1="220" x2="820" y2="220" stroke="#888" stroke-dasharray="3 3"/>
+  <line x1="100" y1="415" x2="820" y2="415" stroke="#888" stroke-dasharray="3 3"/>
+  <path d="M 90 88 C 180 118, 250 145, 330 165 C 430 190, 560 205, 830 232" fill="none" stroke="#1f77b4" stroke-width="3"/>
+  <path d="M 90 86 C 180 116, 250 143, 330 164 C 430 189, 560 204, 830 231" fill="none" stroke="#d62728" stroke-width="3" stroke-dasharray="8 6"/>
+  <path d="M 90 445 C 180 410, 280 390, 390 372 C 520 350, 660 330, 830 318" fill="none" stroke="#ff7f0e" stroke-width="3"/>
+  <text x="90" y="63" font-family="Arial, sans-serif" font-size="16">Apparent SWR follows the reflected-wave attenuation envelope</text>
+  <text x="90" y="300" font-family="Arial, sans-serif" font-size="16">One-way matched-line loss increases with frequency</text>
+  <text x="73" y="267" font-family="Arial, sans-serif" font-size="13">This schematic is a lightweight repository preview. Run the GUI for calculated plots.</text>
+  <text x="450" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">Datasheet practical and physical RLCG models are included in the Python application.</text>
+</svg>
